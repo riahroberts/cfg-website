@@ -4,7 +4,11 @@
   padding: 0;
 }
 
+
+  /* navigation */
+
 .navbar {
+  background-color: rgb(249, 235, 20);
   justify-content: space-between;
   }
 
@@ -12,19 +16,58 @@
   font-family: verveine, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 34px;
+  color: black;
 }
 
 .nav-link{
   font-family: quasimoda, sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 20px;
+  color: black;
 }
+
+.nav-item {
+  text-align: center;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+
+/* home heading */
 
 .home-heading {
   font-family: verveine, sans-serif;
   font-weight: 400;
+  font-size: 75px;
+  padding: 50px 0px;
   font-style: normal;
+  text-align: center;
 }
+
+.long-day-tired {
+  padding: 50px 0px 5px 0px;
+
+}
+
+.hungry {
+  padding: 5px 0px 50px 0px;
+  }
+
+
+/* basic text */
+
+  p {
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+/* start button */
 
 .start-button {
   font-family: verveine, sans-serif;
@@ -32,8 +75,16 @@
   font-style: normal;
 }
 
-p {
-  font-family: quasimoda, sans-serif;
-  font-weight: 300;
-  font-style: normal;
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  vertical-align: baseline;
+}
+
+.copyright{
+  padding: 10px 0px;
+  text-align: center;
 }
