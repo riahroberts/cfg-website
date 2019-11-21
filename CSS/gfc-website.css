@@ -24,6 +24,10 @@
   color: black;
 }
 
+.navbar-brand:hover{
+  color: rgb(138, 138, 138);
+}
+
 .nav-link{
   font-family: quasimoda, sans-serif;
   font-weight: 300;
@@ -32,6 +36,9 @@
   color: black;
 }
 
+.nav-link:hover{
+  color: rgb(138, 138, 138);
+}
 
 /* home heading */
 
@@ -39,7 +46,7 @@
   font-family: verveine, sans-serif;
   font-weight: 400;
   font-size: 75px;
-  padding: 50px 0px;
+  padding: 100px 0px 50px 0px;
   font-style: normal;
   text-align: center;
 }
@@ -55,11 +62,27 @@ p {
   }
 
 /* start button */
-
 .start-button {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.btn {
   font-family: verveine, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: black;
+  background-color: rgb(249, 235, 20);
+  border-color: white;
+  font-size: 40px;
+  padding: 15px 12%;
+  border-radius: 2.5rem;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  border-color: rgb(249, 235, 20);
 }
 
 
