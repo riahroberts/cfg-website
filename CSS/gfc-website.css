@@ -6,4 +6,35 @@
 
 .navbar {
   justify-content: space-between;
+  background-color: yellow;
   }
+
+.navbar-brand {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-link{
+  font-family: quasimoda, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.home-heading {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.start-button {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: quasimoda, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
