@@ -4,7 +4,13 @@
   padding: 0;
 }
 
-.container {
+.container-main{
+  justify-content: center;
+  margin: auto;
+  max-width: 840px;
+}
+
+.container-nav {
   justify-content: center;
   margin: auto;
   max-width: 800px;
