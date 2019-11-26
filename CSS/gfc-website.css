@@ -7,6 +7,12 @@
 .container {
   justify-content: center;
   margin: auto;
+  max-width: 800px;
+}
+
+.header-container {
+  justify-content: center;
+  margin: auto;
   max-width: 1000px;
 }
 
@@ -45,20 +51,6 @@
   text-align: right;
 }
 
-/* home heading */
-
-.home-heading {
-  font-family: verveine, sans-serif;
-  font-weight: 400;
-  font-size: 75px;
-  padding: 100px 0px 50px 0px;
-  font-style: normal;
-  text-align: center;
-}
-
-.intro-para {
-  max-width: 840px;
-}
 
 /* basic text */
 
@@ -66,12 +58,39 @@ p {
   font-family: quasimoda, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 20px;
   }
+
+h1 {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  color: black;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+/* index specific */
+
+.home-heading {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-size: 5em;
+  padding: 100px 0px 50px 0px;
+  font-style: normal;
+  text-align: center;
+}
+
 
 /* start button */
 .start-button {
-  padding: 50px 0px;
+  padding: 50px 50px;
   text-align: center;
 }
 
