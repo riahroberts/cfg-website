@@ -4,10 +4,14 @@
   padding: 0;
 }
 
-.container-main{
+.full-height {
+  height: 100vh;
+}
+
+.container {
   justify-content: center;
   margin: auto;
-  max-width: 840px;
+  max-width: 750px;
 }
 
 .container-nav {
@@ -72,15 +76,18 @@ h1 {
   font-style: normal;
   font-size: 5em;
   color: black;
+  padding: 100px 0px 25px 0px;
 }
 
-ul {
-
+.basic-list {
+margin: 1em 2em;
+list-style: disc;
+list-style-position: inside;
+font-family: quasimoda, sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
-li {
-
-}
 
 /* index specific */
 
@@ -94,11 +101,7 @@ li {
 }
 
 
-/* start button */
-.start-button {
-  padding: 50px 50px;
-  text-align: center;
-}
+/* buttons */
 
 .btn {
   font-family: verveine, sans-serif;
@@ -107,16 +110,39 @@ li {
   color: black;
   background-color: rgb(249, 235, 20);
   border-color: white;
-  font-size: 40px;
-  padding: 15px 12%;
+  font-size: 1.5em;
+  padding: 0.3em 2em;
   border-radius: 2.5rem;
-  min-width: 200px;
+  text-align: center;
 }
 
 .btn:hover {
   color: black;
   background-color: white;
   border-color: rgb(249, 235, 20);
+}
+
+.start-button {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.btn-start-quiz {
+  font-size: 40px;
+  padding: 15px 12%;
+  border-radius: 2.5rem;
+  min-width: 200px;
+}
+
+
+/* contact form */
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-group {
+  padding: 1rem 0 2rem 0;
 }
 
 
