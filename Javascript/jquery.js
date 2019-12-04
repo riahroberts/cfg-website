@@ -1,7 +1,7 @@
 
 
-$('document').ready(function(){
-console.log("HI");
+/*$('document').ready(function(){
+console.log("HI");*/
 
 // meat or no meat
 $('#meatbutton').click(function(){
@@ -13,4 +13,4 @@ $('#veggiebutton').click(function(){
 });
 
 
-})
+//})
